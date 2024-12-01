@@ -20,7 +20,7 @@ export default function Home() {
 >
   Group 18 SYDE252 Final Project: Cochlear Implant
 </h1><h1
-  className="mb-6  pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-purple-900 to-white/20 bg-clip-text text-center text-7xl font-semibold leading-none text-transparent dark:from-white dark:to-slate-900/10"
+  className="mb-6  pointer-events-none whitespace-pre-wrap bg-[#936eb0] bg-clip-text text-center text-7xl font-semibold leading-none text-transparent dark:from-white dark:to-slate-900/10"
   data-aos="zoom-y-out"
   data-aos-delay={150}
 >
@@ -29,7 +29,7 @@ export default function Home() {
       <div className="overflow-x-auto shadow-lg rounded-lg bg-white">
         <table className="table-auto border-collapse w-full text-sm text-left">
           <thead>
-            <tr className="bg-purple-700 text-white">
+            <tr className="bg-[#936eb0] text-white">
               <th className="px-6 py-4 font-semibold uppercase tracking-wide">Name of Audio</th>
               <th className="px-6 py-4 font-semibold uppercase tracking-wide">Original Sound</th>
               <th className="px-6 py-4 font-semibold uppercase tracking-wide">Kaiser Window</th>
