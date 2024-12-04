@@ -30,7 +30,6 @@ export default function Home() {
         Audio Comparison Table <span className="text-black !bg-none !text-8xl !font-normal">🦻🏼</span>
       </h1>
 
-      {/* Add your hyperlink here */}
       <div className="text-center mb-6">
         <a
           href="https://github.com/civ-valerie/SYDE-252-Group-18-Final-Project-Cochlear-Implant-Project"
@@ -38,9 +37,22 @@ export default function Home() {
           rel="noopener noreferrer"
           className="text-blue-600 hover:underline font-medium"
         >
-          View our codebase on Github
+          View our filter codebase on Github
         </a>
+        
       </div>
+      <div className="text-center mb-6">
+        <a
+          href="https://github.com/civ-valerie/signals-final-project-website.git"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 hover:underline font-medium"
+        >
+          View this website's code on Github
+        </a>
+        
+      </div>
+
 
       <div className="overflow-x-auto shadow-lg rounded-lg bg-white">
         <table className="table-auto border-collapse w-full text-sm text-left">
