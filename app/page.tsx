@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 const audioFiles = [
   { name: "Alarm Clock", original: "original/Alarm_Clock.wav", kaiser: "kaiser/processed_Alarm_Clock.wav", improvedKaiser: "improved-kaiser/processed_Alarm_Clock.wav", hamming: "hamming/processed_Alarm_Clock.wav", simplifiedKaiser: "simplified-kaiser/processed_Alarm_Clock.wav" },
   { name: "Classroom", original: "original/Classroom.wav", kaiser: "kaiser/processed_Classroom.wav", improvedKaiser: "improved-kaiser/processed_Classroom.wav", hamming: "hamming/processed_Classroom.wav", simplifiedKaiser: "simplified-kaiser/processed_Classroom.wav" },
@@ -48,7 +46,7 @@ export default function Home() {
           rel="noopener noreferrer"
           className="text-blue-600 hover:underline font-medium"
         >
-          View this website's code on Github
+           View this website&apos;s code on Github
         </a>
         
       </div>
